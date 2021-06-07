@@ -32,6 +32,5 @@
 
       net_h(2 * 4) = W1(2 * 2) * X(2 * 4) + b1 (2 * 1) 
       out_h(2 * 4) = sigmoid(net_h)
-      net_y(1 * 4) = W2(1 * 2) * out_h (2 * 4) + 
-      b2 (1, 1)
+      net_y(1 * 4) = W2(1 * 2) * out_h (2 * 4) + b2 (1, 1)
       out_y(1 * 4) = sigmoid(net_y)
